@@ -1,0 +1,117 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+@media (max-width: 600px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 1.5;
+    color: #4d4e53;
+}
+
+.page-content {
+    display: flex;
+    position: relative;
+}
+
+.nav {
+    position: fixed;
+    height: 100vh;
+    border-right: 3px solid grey;
+    padding-top: 1.5rem;
+    width: 20%;
+
+}
+
+.heading-primary {
+    font-size: 2.9rem;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.nav__list {
+    list-style: none;
+}
+
+.nav__list--item {
+    padding: .9rem 3rem;
+    border-top: 1px solid black;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #4d4e53;
+    font-size: 1.7rem;
+}
+
+.main {
+    padding: 3.5rem 4rem 3rem 34rem;
+}
+
+.main-section:not(:last-child) {
+    margin-bottom: 1.5rem;
+}
+
+.heading-secondary {
+    font-size: 2.85rem;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 1.5rem;
+}
+
+.section__paragraph {
+    font-size: 1.55rem;
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.section__list {
+    font-size: 1.55rem;
+    margin-left: 7.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.section__list-item:not(:last-child) {
+    margin-bottom: 1.5rem;
+}
+
+.section__list-inner {
+    margin: 1.5rem 0 1.5rem 6rem;
+}
+
+code {
+    font-family: monospace;
+    font-size: 1.3rem;
+    margin-left: 2rem;
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #f7f7f7;
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: .5rem;
+}
+
+.reference-list {
+    font-size: 1.55rem;
+    margin-left: 6rem;
+}
